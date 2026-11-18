@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Student Profile Application", page_icon="🎓", layout="centered")
 
-st.title("🎓 Student Profile Application")
+st.title("🎓 Student Profile Application") 
 st.caption("Developed by Student Name")  # <-- replace with your name
 
 name = st.text_input("Student Name", placeholder="Enter your name")
