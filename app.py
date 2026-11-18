@@ -5,8 +5,6 @@ st.set_page_config(page_title="Student Profile Application", page_icon="🎓", l
 st.title("🎓 Student Profile Application")
 st.caption("Developed by Student Name")  # <-- replace with your name
 
-st.info("Fill in your details and click View My Profile.")
-
 name = st.text_input("Student Name", placeholder="Enter your name")
 usn = st.text_input("USN / Roll Number", placeholder="Enter roll number")
 department = st.selectbox("Department", ["CSE", "ISE", "ECE", "EEE", "ME", "CV", "AI & ML", "Other"])
